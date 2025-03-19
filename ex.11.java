@@ -11,4 +11,3 @@ public class Exercicio11 {
         
         JOptionPane.showMessageDialog(null, "O fatorial de " + num + " é: " + fatorial);
     }
-}
