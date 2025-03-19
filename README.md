@@ -1,1 +1,1 @@
-# Pag115 do exercico de Helio 10 ao 20.
+# Exercícios de Helio dá pag. 115 do 10 ao 20 e da pag. 89 do 20 ao 30
