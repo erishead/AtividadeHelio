@@ -1,15 +1,18 @@
 import javax.swing.JOptionPane;
 
-public class Exercicio13 {
+public class Exercicio12 {
     public static void main(String[] args) {
-        StringBuilder resultado = new StringBuilder("Números que atendem a condição:\n");
+        int maior = Integer.MIN_VALUE, menor = Integer.MAX_VALUE;
+        double soma = 0;
 
-        for (int i = 1000; i <= 1999; i++) {
-            if (i % 11 == 5) {
-                resultado.append(i).append("\n");
-            }
+        for (int i = 0; i < 500; i++) {
+            int num = Integer.parseInt(JOptionPane.showInputDialog("Digite um número positivo:"));
+            if (num > maior) maior = num;
+            if (num < menor) menor = num;
+            soma += num;
         }
 
-        JOptionPane.showMessageDialog(null, resultado.toString());
+        double media = soma / 500;
+        JOptionPane.showMessageDialog(null, "Maior: " + maior + "\nMenor: " + menor + "\nMédia: " + media);
     }
 }
