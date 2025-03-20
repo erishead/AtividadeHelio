@@ -14,3 +14,4 @@ public class Ex25 {
             JOptionPane.showMessageDialog(null, "O ponto (" + x + "," + y + ") NÃO pertence à reta.");
         }
     }
+}
