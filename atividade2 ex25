@@ -1,0 +1,17 @@
+import javax.swing.JOptionPane;
+
+public class Ex25 {
+    public static void main(String[] args) {
+        double a = Double.parseDouble(JOptionPane.showInputDialog("Digite o coeficiente a:"));
+        double b = Double.parseDouble(JOptionPane.showInputDialog("Digite o coeficiente b:"));
+        double c = Double.parseDouble(JOptionPane.showInputDialog("Digite o coeficiente c:"));
+        double x = Double.parseDouble(JOptionPane.showInputDialog("Digite o valor de x:"));
+        double y = Double.parseDouble(JOptionPane.showInputDialog("Digite o valor de y:"));
+
+        if (a*x + b*y == c) {
+            JOptionPane.showMessageDialog(null, "O ponto (" + x + "," + y + ") pertence à reta.");
+        } else {
+            JOptionPane.showMessageDialog(null, "O ponto (" + x + "," + y + ") NÃO pertence à reta.");
+        }
+    }
+}
